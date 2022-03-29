@@ -1,0 +1,195 @@
+
+body{
+    margin: 0%;
+}
+
+    /* Navbar Section  */
+#navbarbox {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fca311;
+    text-align: right;
+    padding: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+    
+.nlink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+    /* Welcome section  */
+.welcome{
+    font-family:"Poppins";
+    color: #E0E2DB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgtextbox{
+    background-color: #191716;  
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#welcomeimg{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+#fname{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+}
+#dname{
+    font-size: 20px;
+    color: #E6AF2E;
+    margin: 0%;
+    padding: 0%;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#subtitle{
+    font-size: 15px;
+    color: #BEB7A4;
+    margin: 0%;
+    padding: 0%;
+    letter-spacing: 0.5px;
+}
+
+    /* Skill section  */
+#skilltitle{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:"Poppins";
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 50px;
+}
+#skillsub{
+    font-size: 15px;
+    font-family:"Poppins";
+    color: #BEB7A4;
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 20px;
+}
+#skillsec{
+    background-color: #3D348B;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#line{
+    width: 80%;
+    height: 2px;
+    background-color: white;
+}
+#skillimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+}
+#flexbox{
+    height: 250px;
+    width: 250px;
+    border: #FFFFFF solid 1px;
+    margin: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-radius: 100px;
+}
+#positionflexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3D348B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    /* contact section  */
+#contactbox {
+	background-color: #3D348B;
+	padding-top: 25px;
+}
+
+#contacttitle {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 0;
+    font-weight: bold;
+    font-family:"Poppins";
+}
+.buttonbox {
+    padding: 10px 15px;
+    margin-left: 50px;
+    background-color: #fca311;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+table {
+	margin: 0 auto;
+}
+
+td {
+	padding: 10px 25px;
+}
+
+.rightalign {
+	text-align: right;
+    font-family:"Poppins";
+    color: white;
+}
+
+.leftalign {
+    text-align: left;
+    font-family:"Poppins";
+    color: white;
+}
+
+input,
+textarea {
+	padding: 5px;
+}
+
+    /* footer section  */
+#ftline {
+    border: 2px solid white;
+}
+    
+#ftbox {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family:"Poppins";
+}
+    
+.ftlink {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 25px;
+}
+    
+i {
+    color: white;
+    }
